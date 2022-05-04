@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  background-image: url(./img/bg.jpg);
+}
+header {
+  margin: 2rem 10%;
+}
+nav,
+li {
+  display: inline-block;
+}
+nav {
+  width: 100%;
+  text-align: center;
+}
+li {
+  font-size: 2rem;
+  padding: 0.5rem 3rem;
+  color: maroon;
+}
+main {
+  background-color: rgba(255, 255, 255, 0.453);
+  margin: 4rem 10%;
+}
+h1 {
+  font-size: 6rem;
+  text-align: center;
+  padding: 3rem;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 300;
+}
+section {
+  margin: 2rem 15%;
+  border-left: 1px solid black;
+  padding-left: 1rem;
+}
+h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+h3 {
+  font-size: 2.5rem;
+  font-style: italic;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  color: maroon;
+}
+p {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
