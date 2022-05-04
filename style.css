@@ -24,18 +24,34 @@ nav {
 li {
   font-size: 2rem;
   padding: 0.5rem 3rem;
-  color: maroon;
+}
+li a:link {
+  color: #660000;
+  text-decoration: none;
+}
+li a:visited {
+  color: #8a0f0f;
+}
+li a:hover {
+  color: #aa0e0e;
+  text-decoration: overline;
+}
+li a:active {
+  color: #f52f2f;
+  text-decoration: overline;
 }
 main {
   background-color: rgba(255, 255, 255, 0.453);
   margin: 4rem 10%;
+  border-radius: 3rem;
 }
 h1 {
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: center;
   padding: 3rem;
   font-family: "IBM Plex Serif", serif;
-  font-weight: 300;
+  font-weight: 500;
+  letter-spacing: -0.2rem;
 }
 section {
   margin: 2rem 15%;
@@ -47,15 +63,58 @@ h2 {
   text-transform: uppercase;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.2rem;
 }
 h3 {
   font-size: 2.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
+  font-weight: 100;
   padding-top: 2rem;
   padding-bottom: 1rem;
+}
+h3 a:link {
+  text-decoration: none;
   color: maroon;
+}
+h3 a:visited {
+  color: #2e21e7;
+}
+h3 a:hover {
+  text-decoration: underline;
+}
+h3 a:active {
+  text-decoration: underline;
+  color: #2e21e7;
 }
 p {
   font-size: 2rem;
   padding-bottom: 2rem;
+  line-height: 3.5rem;
+}
+h3 + p {
+  text-indent: 1rem;
+}
+.to-top {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  background-color: #9b9b9b8f;
+}
+.to-top a:link {
+  color: #660000;
+  text-decoration: none;
+}
+.to-top a:visited {
+  color: #2e21e7;
+}
+.to-top a:hover {
+  background-color: #ffffff9f;
+  text-decoration: underline;
+  padding: 1rem;
+}
+.to-top a:active {
+  color: #2e21e7;
+  text-decoration: underline;
 }
